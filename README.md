@@ -1,6 +1,6 @@
 #A propos
 
-jQuery slideshow est un plugin qui vous permet de créer une bannière ou un galerie photo simpa et personalisé.
+jQuery slideshow est un plugin qui vous permet de créer une bannière ou une galerie photo simpa et personalisé.
 
 ##Installation
 
