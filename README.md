@@ -29,7 +29,7 @@ Le code HTML de la page :
 
 ##Usage
 
-L'usage de ce plugin est très simple,Il faut juster l'appliquer à la div contenant la liste des images
+L'usage de ce plugin est très simple,Il faut juste l'appliquer à la div contenant la liste des images
 
 ```html
 <script type="text/javascript">
