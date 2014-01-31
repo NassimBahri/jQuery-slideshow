@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Jquery-slideshow by NassimBahri</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Jquery-slideshow</h1>
+        <h2>Plugin jQuery permettant de créer une bannière ou une galerie photo personnalié</h2>
+        <a href="https://github.com/NassimBahri/jQuery-slideshow" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="a-propos" class="anchor" href="#a-propos"><span class="octicon octicon-link"></span></a>A propos</h1>
+
+<p>jQuery slideshow est un plugin qui vous permet de créer une bannière ou une galerie photo simpa et personalisé.</p>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>En faite, pour utiliser ce plugin vous devez inclure les fichiers suivants :</p>
+
+<div class="highlight highlight-html"><pre><span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"http://code.jquery.com/jquery-1.7.1.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"js/slidshow.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">type=</span><span class="s">"text/css"</span> <span class="na">href=</span><span class="s">"css/style.css"</span> <span class="nt">/&gt;</span>
+</pre></div>
+
+<p>Le code HTML de la page : </p>
+
+<div class="highlight highlight-html"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"content"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Plugin slideshow jquery<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"slider"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"img/img1.jpg"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"img/img2.jpg"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"img/img3.jpg"</span> <span class="nt">/&gt;</span>
+        <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"img/img4.jpg"</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+</pre></div>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>L'usage de ce plugin est très simple,Il faut juste l'appliquer à la div contenant la liste des images</p>
+
+<div class="highlight highlight-html"><pre><span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span>
+<span class="nx">jQuery</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s1">'.slider'</span><span class="p">).</span><span class="nx">slideshow</span><span class="p">({</span>
+        <span class="nx">animation</span>   <span class="o">:</span><span class="s1">'advanced slide'</span>
+    <span class="p">});</span>
+<span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+</pre></div>
+
+<h2>
+<a name="exploitons-le-code-" class="anchor" href="#exploitons-le-code-"><span class="octicon octicon-link"></span></a>Exploitons le code :</h2>
+
+<pre><code>    animation : permet de spécifier le type de l'animation à appliquer par défaut c'est auto qui crée des animations aléatoires
+    les autres valeurs d'animation sont : fadeIn,store,slideUp,advanced slide
+</code></pre>
+
+<h2>
+<a name="author" class="anchor" href="#author"><span class="octicon octicon-link"></span></a>Author</h2>
+
+<p><a href="https://www.facebook.com/Bahri.Nassim">Nassim Bahri</a> (<a href="http://www.linkedin.com/pub/nassim-bahri/32/b38/a11">LinkedIn</a>)</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/NassimBahri/jQuery-slideshow/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/NassimBahri/jQuery-slideshow/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/NassimBahri/jQuery-slideshow"></a> is maintained by <a href="https://github.com/NassimBahri">NassimBahri</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
